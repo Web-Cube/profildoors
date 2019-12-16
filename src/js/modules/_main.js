@@ -148,7 +148,7 @@ $(document).ready(function(){
 
 function initMap() {
     var locations = [
-        ["ул. Варшавская 59", 59.852713, 30.313863],
+        ["ул. Варшавская 59", 59.852369, 30.313584],
 		["ул. Уральская 6", 59.951463, 30.264803]
     ];
     var map = new google.maps.Map(document.getElementById('map'), {
