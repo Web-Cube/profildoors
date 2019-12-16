@@ -1,0 +1,33 @@
+@keyframes mouse {
+    0% {
+        transform: translateY(-1rem);
+    }
+    50% {
+        transform: translateY(4rem);
+    }
+    100% {
+        transform: translateY(-1rem);
+    }
+}
+
+
+@keyframes circle
+{
+	0%
+	{
+		opacity: .4;
+		transform: scale(1);
+		webkit-transform: scale(1);
+	}
+	100%
+	{
+		opacity: 0;
+		transform: scale(2);
+		webkit-transform: scale(2);
+	}
+}
+
+@keyframes circle_dot{
+	from{stroke-dashoffset:100}
+	to{stroke-dashoffset:0}
+}

@@ -1,0 +1,153 @@
++b.FORM.form_modal.flex_justify.modals.mfp-hide#call(action="#",data-thancks-name="#thanks1")
+	+e.INPUT(type="hidden",name="subj",value="Заявка на консультацию")
+	+e.box
+		+e.inside-wrap
+			+e.title 
+				strong Оставьте заявку
+			+e.desc.desc.color_grey наш специалист ответит на вопросы
+			+e.field-wrap
+				+e.field
+					+e.LABEL.label.p.color_grey Ваше имя 
+					+e.INPUT.input(placeholder="Евгений",type="text",name="name")
+				+e.field
+					+e.LABEL.label.p.color_grey Ваш номер телефона 
+					+e.INPUT.input(placeholder="+7 (000) 000-00-00",type="tel",name="phone")
+				+e.BUTTON.btn.btn(type="submit",name='send') Получить консультацию
+					.btn__icon
+						+icon('arrow', '0 0 10 16')
+				+e.polity._center
+					| Оставляя заявку, вы соглашаетесь 
+					br
+					| с обработкой 
+					a(href="#") персональных данных
+	+e.manager._woman
+		+e.manager-info
+			+e.manager-work.p 
+				strong Менеджер салона ProfilDoors
+			+e.manager-name.color_grey Кузьмина Екатерина
++b.FORM.form_modal.flex_justify.modals.mfp-hide#sample(action="#",data-thancks-name="#thanks2")
+	+e.INPUT(type="hidden",name="subj",value="Заявка на замер")
+	+e.box
+		+e.inside-wrap
+			+e.title 
+				strong 
+					| Вызовите 
+					br
+					| бесплатно мастера
+			+e.desc.desc.color_grey чтобы замерить проёмы
+			+e.field-wrap
+				+e.field
+					+e.LABEL.label.p.color_grey Ваше имя 
+					+e.INPUT.input(placeholder="Евгений",type="text",name="name")
+				+e.field
+					+e.LABEL.label.p.color_grey Ваш номер телефона 
+					+e.INPUT.input(placeholder="+7 (000) 000-00-00",type="tel",name="phone")
+				+e.BUTTON.btn.btn(type="submit",name='send') Получить консультацию
+					.btn__icon
+						+icon('arrow', '0 0 10 16')
+				+e.polity._center
+					| Оставляя заявку, вы соглашаетесь 
+					br
+					| с обработкой 
+					a(href="#") персональных данных
+	+e.manager._man
+		+e.manager-info
+			+e.manager-work.p 
+				strong Менеджер салона ProfilDoors
+			+e.manager-name.color_grey Шкуров Антон
++b.FORM.form_modal.flex_justify.modals.mfp-hide#docs(action="#",data-thancks-name="#thanks3")
+	+e.INPUT(type="hidden",name="subj",value="Заявка на каталог")
+	+e.box
+		+e.inside-wrap
+			+e.title 
+				strong 
+					| Получите 
+					br
+					| полный каталог
+			+e.desc.desc.color_grey На электронную почту
+			+e.field-wrap
+				+e.field
+					+e.LABEL.label.p.color_grey Ваш email
+					+e.INPUT.input(placeholder="Введите email",type="email",name="email")
+				+e.field
+					+e.LABEL.label.p.color_grey Ваш номер телефона 
+					+e.INPUT.input(placeholder="+7 (000) 000-00-00",type="tel",name="phone")
+				+e.BUTTON.btn.btn(type="submit",name="catalog") Получить каталог
+					.btn__icon
+						+icon('arrow', '0 0 10 16')
+				+e.polity._center
+					| Оставляя заявку, вы соглашаетесь 
+					br
+					| с обработкой 
+					a(href="#") персональных данных
+	+e.manager._catalog
+		+e.IMG.catalog-img(src="/img/magazine3.png")
++b.form_modal.flex_justify.modals.mfp-hide#thanks1
+	+e.box._thanck
+		+e.inside-wrap
+			+e.title._mb30
+				strong 
+					| Спасибо, что выбрали 
+					br
+					| наш салон!
+			+e.desc._mb35.desc.color_grey Консультант свяжется в течение 15 минут
+			+e.line
+			+e.desc._mb30.desc.color_grey
+				| При дополнительных вопросах звоните 
+				br
+				| с 10:00 до 21:00 по номеру 
+			+e.A.phone-number(href="tel:+78124256169")
+				| +7 (812) 
+				strong 425-61-69
+	+e.manager._woman
+		+e.manager-info
+			+e.manager-work.p 
+				strong Менеджер салона ProfilDoors
+			+e.manager-name.color_grey Кузьмина Екатерина
++b.form_modal.flex_justify.modals.mfp-hide#thanks2
+	+e.box._thanck
+		+e.inside-wrap
+			+e.title._mb30
+				strong 
+					| Спасибо, что выбрали 
+					br
+					| наш салон!
+			+e.desc._mb35.desc.color_grey Консультант свяжется в течение 15 минут
+			+e.line
+			+e.desc._mb30.desc.color_grey
+				| При дополнительных вопросах звоните 
+				br
+				| с 10:00 до 21:00 по номеру 
+			+e.A.phone-number(href="tel:+78124256169")
+				| +7 (812) 
+				strong 425-61-69
+	+e.manager._man
+		+e.manager-info
+			+e.manager-work.p 
+				strong Менеджер салона ProfilDoors
+			+e.manager-name.color_grey Шкуров Антон
++b.form_modal.flex_justify.modals.mfp-hide#thanks3
+	+e.box._thanck
+		+e.inside-wrap
+			+e.title._mb30
+				strong 
+					| Спасибо, что выбрали 
+					br
+					| наш салон!
+			+e.desc._mb35.desc.color_grey 
+				| Полный каталог дверей уже отправлен 
+				br
+				| на ваш электронный адрес
+			+e.line
+			+e.desc._mb30.desc.color_grey
+				| При дополнительных вопросах звоните 
+				br
+				| с 10:00 до 21:00 по номеру 
+			+e.A.phone-number(href="tel:+78124256169")
+				| +7 (812) 
+				strong 425-61-69
+	+e.manager._woman
+		+e.manager-info
+			+e.manager-work.p 
+				strong Менеджер салона ProfilDoors
+			+e.manager-name.color_grey Кузьмина Екатерина

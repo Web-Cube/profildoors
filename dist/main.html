@@ -1,0 +1,1833 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <title>Главная</title>
+    <link rel="stylesheet" href="/app/css/app.css?v=1576494013380">
+    <script>
+        function canUseWebP(){var e=document.createElement("canvas");return!(!e.getContext||!e.getContext("2d"))&&0==e.toDataURL("image/webp").indexOf("data:image/webp")}var root=document.getElementsByTagName("html")[0];canUseWebP()?root.classList.add("ws"):root.classList.add("wn");
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main__door">
+            <picture>
+                <source type="image/webp" srcset="/app/img/main__door.webp">
+                    <img src="/app/img/main__door.png" />
+            </picture>
+        </div>
+        <div class="main__wrap wrap">
+            <header class="header flex flex_vertical flex flex_justify">
+                <div class="header__left flex flex_vertical">
+                    <a class="header__logo" href="/main.html">
+                        <picture>
+                            <source type="image/webp" srcset="/app/img/logo.webp">
+                                <img src="/app/img/logo.png" class="header__logo-pic" alt="" role="presentation" />
+                        </picture>
+                    </a>
+                    <div class="header__desc">Фирменная сеть салонов
+                        <br>ProfilDoors в&nbsp;Санкт-Петербурге</div>
+                </div>
+                <div class="header__center flex flex_vertical">
+                    <div class="header__location flex">
+                        <div class="header__location-icon icon">
+                            <svg class="icon icon-location location" viewBox="0 0 31 47">
+                                <use xlink:href="/app/icons/sprite.svg#location"></use>
+                            </svg>
+                        </div>
+                        <div class="header__location-text"><strong class="header__location-title">ул. Варшавская 59</strong>
+                            <br>м. Московская</div>
+                    </div>
+                    <div class="header__location flex">
+                        <div class="header__location-icon icon">
+                            <svg class="icon icon-location location" viewBox="0 0 31 47">
+                                <use xlink:href="/app/icons/sprite.svg#location"></use>
+                            </svg>
+                        </div>
+                        <div class="header__location-text"><strong class="header__location-title">ул. Уральская 6</strong>
+                            <br>м. Василеостровская</div>
+                    </div>
+                </div>
+                <div class="header__right flex flex_vertical"><a class="header__phone-number" href="tel:+78124256169">+7 (812) <strong>425-61-69</strong></a><a class="header__phone-btn phone-btn js-modal" href="#call"><span class="header__phone-icon"><svg class="icon icon-phone phone" viewBox="0 0 18 21"><use xlink:href="/app/icons/sprite.svg#phone"></use></svg></span><div class="phone-btn__circle"></div><div class="phone-btn__circle"></div><div class="phone-btn__circle"></div></a>
+                </div>
+            </header>
+            <div class="main__center flex flex_justify flex flex_start">
+                <div class="main__content">
+                    <h1 class="main__title h1">Экономьте <span class="color_yelow">до&nbsp;20% </span>в&nbsp;фирменной сети салонов ProfilDoors</h1>
+                    <div class="main__list desc flex"><a class="main__item main__item_free js-modal" href="#sample">Замеряем бесплатно<i class="main__item-icon"><svg class="icon icon-play play" viewBox="0 0 7 9"><use xlink:href="/app/icons/sprite.svg#play"></use></svg></i></a>
+                        <div class="main__item">доставляем и&nbsp;устанавливаем</div>
+                    </div>
+                </div>
+                <div class="main__faq faq">
+                    <picture>
+                        <source type="image/webp" srcset="/app/img/help.webp">
+                            <img src="/app/img/help.png" class="faq__icon" />
+                    </picture>
+                    <h3 class="h3 faq__title">Ответьте <br>на&nbsp;5 вопросов</h3>
+                    <div class="p faq__desc">чтобы подобрать двери,
+                        <br>получить скидку
+                        <br>и&nbsp;бесплатную доставку</div><a class="btn faq__btn js-modal" href="#quiz">Подобрать двери<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                </div>
+            </div><a class="main__scroll flex flex_vertical flex_inline js-scroll-to" href="#model"><span class="main__scroll-btn"><span class="main__scroll-icon"><svg class="icon icon-down down" viewBox="0 0 6 12"><use xlink:href="/app/icons/sprite.svg#down"></use></svg></span></span><span class="main__scroll-text">Листайте далее</span></a>
+        </div>
+    </div>
+    <div class="model" id="model">
+        <div class="model__wrap wrap">
+            <div class="model__rect">
+                <div class="model__content">
+                    <div class="model__percent">70%</div>
+                    <h2 class="model__title h2">моделей уже на&nbsp;складе</h2>
+                    <div class="model__desc desc color color_grey">Поставляются в&nbsp;течении 5 дней</div>
+                </div>
+                <a class="model__thumb js-img-zoom" href="app/img/model__img_big.jpg">
+                    <picture>
+                        <source type="image/webp" srcset="/app/img/model__thumb.webp">
+                            <img src="/app/img/model__thumb.png" />
+                    </picture>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="sertificate">
+        <div class="sertificate__wrap wrap">
+            <div class="sertificate__row flex flex_justify">
+                <div class="sertificate__left">
+                    <h2 class="sertificate__title h2">Наши двери прошли <br><span class="sertificate__title sertificate__title_grey">сертификацию</span></h2>
+                    <div class="sertificate__gost">
+                        <div class="sertificate__gost-text">ГОСТ 475-78</div>
+                    </div>
+                    <div class="sertificate__gost-desc p color color_grey">Двери прошли испытания
+                        <br>и&nbsp;соответствуют ГОСТ-стандарту
+                        <br>прочности, шумоизоляции,
+                        <br>сопротивляемости возгоранию.</div>
+                    <picture>
+                        <source type="image/webp" srcset="/app/img/sertificate.webp">
+                            <img src="/app/img/sertificate.png" class="sertificate__img" alt="" role="presentation" />
+                    </picture>
+                </div>
+                <div class="sertificate__right">
+                    <div class="sertificate__list">
+                        <div class="sertificate__item">
+                            <h3 class="sertificate__item-title h3">Безопасны <br>и&nbsp;экологичны </h3>
+                            <div class="sertificate__item-desc desc">Дверные покрытия разработаны
+                                <br>в&nbsp;Германии на&nbsp;основе только экологически чистых материалов.</div>
+                        </div>
+                        <div class="sertificate__item">
+                            <h3 class="sertificate__item-title h3">Сохраняют <br>внешний вид</h3>
+                            <div class="sertificate__item-desc desc">Защитный слой предотвращает выцветание на&nbsp;солнце, истирание
+                                <br>и&nbsp;царапины.</div>
+                        </div>
+                        <div class="sertificate__item">
+                            <h3 class="sertificate__item-title h3">Не боятся влаги</h3>
+                            <div class="sertificate__item-desc desc">Благодаря влагостойкому покрытию двери можно устанавливать в&nbsp;ванной и&nbsp;мыть.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="catalog">
+        <div class="catalog__wrap wrap">
+            <h2 class="catalog__title h2">Популярные модели</h2>
+            <div class="catalog__section">
+                <div class="catalog__head flex">
+                    <h3 class="catalog__head-title h3">Модерн</h3>
+                </div>
+                <div class="catalog__slider-wrap">
+                    <div class="catalog__slider owl-carousel js-catalog">
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system1_1.webp">
+                                        <img src="/app/img/system1_1.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img2.webp">
+                                        <img src="/app/img/catalog__img2.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img3.webp">
+                                        <img src="/app/img/catalog__img3.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img4.webp">
+                                        <img src="/app/img/catalog__img4.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img1.webp">
+                                        <img src="/app/img/catalog__img1.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img2.webp">
+                                        <img src="/app/img/catalog__img2.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img3.webp">
+                                        <img src="/app/img/catalog__img3.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#modern">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img4.webp">
+                                        <img src="/app/img/catalog__img4.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="catalog__section">
+                <div class="catalog__head flex">
+                    <h3 class="catalog__head-title h3">Классика</h3>
+                </div>
+                <div class="catalog__slider-wrap">
+                    <div class="catalog__slider owl-carousel js-catalog">
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img5.webp">
+                                        <img src="/app/img/catalog__img5.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img6.webp">
+                                        <img src="/app/img/catalog__img6.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">U_2_CLASSIC</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img7.webp">
+                                        <img src="/app/img/catalog__img7.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">U_94_CLASSIC</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img8.webp">
+                                        <img src="/app/img/catalog__img8.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">X_1_CLASSIC</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img5.webp">
+                                        <img src="/app/img/catalog__img5.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">1E</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img6.webp">
+                                        <img src="/app/img/catalog__img6.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">U_2_CLASSIC</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img7.webp">
+                                        <img src="/app/img/catalog__img7.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">U_94_CLASSIC</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                        <a class="catalog__item product js-modal" href="#catalog" data-category="#classic">
+                            <div class="product__img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img8.webp">
+                                        <img src="/app/img/catalog__img8.png" />
+                                </picture>
+                            </div>
+                            <div class="product__bottom">
+                                <div class="product__name">X_1_CLASSIC</div>
+                                <div class="product__price">12 700 ₽</div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="system">
+        <div class="system__wrap wrap">
+            <h2 class="system__h2 h2"> Только в&nbsp;наших салонах <br>представлены все системы <br>открывания</h2>
+            <div class="system__desc desc color color_grey">Коллекции сочетаются с&nbsp;7 системами</div>
+            <div class="system__slider-wrap">
+                <div class="system__slider owl-carousel js-system">
+                    <div class="system__item">
+                        <div class="system__preview js-system-preview">
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system1_1.webp">
+                                        <img src="/app/img/system1_1.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system1_2.webp">
+                                        <img src="/app/img/system1_2.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system1_3.webp">
+                                        <img src="/app/img/system1_3.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system1_2.webp">
+                                        <img src="/app/img/system1_2.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="system__content">
+                            <h3 class="system__h3 h3">Книжка</h3>
+                            <p class="system__p p">Бесшумная система с&nbsp;полотном, поделённым на&nbsp;две доли. При открытии полотно плавным ходом складывается внутрь проёма.</p>
+                        </div>
+                    </div>
+                    <div class="system__item">
+                        <div class="system__preview js-system-preview">
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system2_1.webp">
+                                        <img src="/app/img/system2_1.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system2_2.webp">
+                                        <img src="/app/img/system2_2.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system2_3.webp">
+                                        <img src="/app/img/system2_3.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system2_2.webp">
+                                        <img src="/app/img/system2_2.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="system__content">
+                            <h3 class="system__h3 h3">Рото</h3>
+                            <p class="system__p p">Альтернатива распашным дверям. Полотно открывается как на&nbsp;себя, так и&nbsp;от себя, прижимаясь к&nbsp;краю проёма. Экономит пространство в&nbsp;санузлах, гардеробных и&nbsp;узких проёмах.</p>
+                        </div>
+                    </div>
+                    <div class="system__item">
+                        <div class="system__preview js-system-preview">
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system4_1.webp">
+                                        <img src="/app/img/system4_1.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system4_2.webp">
+                                        <img src="/app/img/system4_2.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system4_3.webp">
+                                        <img src="/app/img/system4_3.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system4_2.webp">
+                                        <img src="/app/img/system4_2.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="system__content">
+                            <h3 class="system__h3 h3">Compack</h3>
+                            <p class="system__p p">Компактная система с&nbsp;одним или&nbsp;двумя полотнами. При открытии полотно складывается к&nbsp;стене пополам. Экономит пространство для&nbsp;гардеробных комнат и&nbsp;узких проёмов.</p>
+                        </div>
+                    </div>
+                    <div class="system__item">
+                        <div class="system__preview js-system-preview">
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system3_1.webp">
+                                        <img src="/app/img/system3_1.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system3_2.webp">
+                                        <img src="/app/img/system3_2.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="system__content">
+                            <h3 class="system__h3 h3">Diva Air</h3>
+                            <p class="system__p p">Бесшумная конструкция с&nbsp;полотном, скользящим по&nbsp;хромированной направляющей вдоль стены. Изготавливаются с&nbsp;одним либо двумя полотнами.</p>
+                        </div>
+                    </div>
+                    <div class="system__item">
+                        <div class="system__preview js-system-preview">
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system5_1.webp">
+                                        <img src="/app/img/system5_1.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system5_2.webp">
+                                        <img src="/app/img/system5_2.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system5_3.webp">
+                                        <img src="/app/img/system5_3.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system5_2.webp">
+                                        <img src="/app/img/system5_2.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="system__content">
+                            <h3 class="system__h3 h3">Izyda</h3>
+                            <p class="system__p p">Бесшумная система с&nbsp;полотном, поделённым на&nbsp;две доли. При открытии полотно плавным ходом складывается и&nbsp;сдвигается в&nbsp;сторону.</p>
+                        </div>
+                    </div>
+                    <div class="system__item">
+                        <div class="system__preview js-system-preview">
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system6_1.webp">
+                                        <img src="/app/img/system6_1.png" />
+                                </picture>
+                            </div>
+                            <div class="system__thumb">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/system6_2.webp">
+                                        <img src="/app/img/system6_2.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="system__content">
+                            <h3 class="system__h3 h3">Invisible</h3>
+                            <p class="system__p p">Полотно устанавливается вровень со&nbsp;стеной. Без обрамления проёма наличниками. Конструкция создаёт эффект невидимой двери и&nbsp;расширяет пространство.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="docs">
+        <div class="docs__wrap wrap">
+            <div class="docs__row flex flex_justify">
+                <div class="docs__content">
+                    <h2 class="docs__title h2">Получите полный каталог дверей ProfilDoors</h2>
+                    <div class="docs__desc desc color color_grey">В каталоге 500+ межкомнатных и&nbsp;входных
+                        <br>дверей, фурнитура, системы открывания.</div><a class="docs__btn btn js-modal" href="#docs">Получить каталог<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                </div>
+                <div class="docs__catalog">
+                    <picture>
+                        <source type="image/webp" srcset="/app/img/Magazine2.webp">
+                            <img src="/app/img/Magazine2.png" class="docs__img" alt="" role="presentation" />
+                    </picture>
+                    <a class="docs__pdf pdf js-modal" href="#docs">
+                        <picture>
+                            <source type="image/webp" srcset="/app/img/pdf.webp">
+                                <img src="/app/img/pdf.png" class="pdf__icon" />
+                        </picture>
+                        <picture>
+                            <source type="image/webp" srcset="/app/img/pdf_hover.webp">
+                                <img src="/app/img/pdf_hover.png" class="pdf__icon pdf__icon_hover" />
+                        </picture>
+                        <div class="pdf__size"><strong>25 МБ</strong>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="garant">
+        <div class="garant__wrap wrap">
+            <div class="garant__row flex flex_justify">
+                <h2 class="garant__title h2">Даём двойную гарантию</h2>
+                <div class="garant__item">
+                    <div class="garant__head">
+                        <div class="garant__item-icon garant__item-icon_garant">
+                            <svg class="icon icon-guarantee guarantee" viewBox="0 0 100 100">
+                                <use xlink:href="/app/icons/sprite.svg#guarantee"></use>
+                            </svg>
+                        </div>
+                        <h3 class="garant__item-title h3">Гарантия на&nbsp;двери <br>и&nbsp;фурнитуру</h3>
+                    </div>
+                    <p class="garant__item-desc p">Фабрика контролирует качество на&nbsp;этапах от&nbsp;поставки материалов до&nbsp;отгрузки готовых комплектов.
+                        <br>И в&nbsp;течение года гарантирует замену дверей в&nbsp;случае брака.</p>
+                </div>
+                <div class="garant__item">
+                    <div class="garant__head">
+                        <div class="garant__item-icon garant__item-icon_tools">
+                            <svg class="icon icon-tools tools" viewBox="0 0 90 90">
+                                <use xlink:href="/app/icons/sprite.svg#tools"></use>
+                            </svg>
+                        </div>
+                        <h3 class="garant__item-title h3">Год гарантии <br>на&nbsp;монтаж</h3>
+                    </div>
+                    <p class="garant__item-desc p">Наши монтажники 5 лет работают только с&nbsp;дверьми ProfilDoors
+                        <br>и&nbsp;не боятся гарантировать качество монтажа. Исправим любые недочёты за&nbsp;наш счёт.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="review">
+        <div class="review__wrap wrap">
+            <div class="review__slider owl-carousel js-review">
+                <div class="review__slide">
+                    <div class="review__row flex flex_justify">
+                        <div class="review__gallery-wrap">
+                            <div class="review__gallery js-gallery">
+                                <div class="review__gallery-slide">
+                                    <div class="review__thumb">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/iphone.webp">
+                                                <img src="/app/img/iphone.png" class="review__img" alt="" role="presentation" />
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="review__gallery-slide">
+                                    <div class="review__thumb">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/iphone.webp">
+                                                <img src="/app/img/iphone.png" class="review__img" alt="" role="presentation" />
+                                        </picture>
+                                    </div>
+                                </div>
+                                <div class="review__gallery-slide">
+                                    <div class="review__thumb">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/iphone.webp">
+                                                <img src="/app/img/iphone.png" class="review__img" alt="" role="presentation" />
+                                        </picture>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__info">
+                            <div class="review__head">
+                                <h2 class="review__title">Узнайте, что говорят покупатели дверей ProfilDoors</h2>
+                                <div class="review__avtor">
+                                    <div class="review__avtor-icon">“</div>
+                                    <div class="review__avtor-name"><strong>Евгений Караникола</strong>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review__content content flex flex_justify">
+                                <div class="review__content-left">
+                                    <H3 class="h3">Понравилось:</H3>
+                                    <p>«К концу ремонта искали двери в&nbsp;современном стиле, которые было бы сложно повредить собаке и&nbsp;детям.</p>
+                                    <p>Понравилось, что помогли подобрать и&nbsp;не навязывали лишнего. Дверьми тоже довольны, выглядят надёжно»</p>
+                                </div>
+                                <div class="review__content-right">
+                                    <h4>Стоит улучшить:</h4>
+                                    <p>Доставку можно чуть быстрее сделать</p>
+                                    <h4>Купил:</h4>
+                                    <p>3 межкомнатные двери серии E
+                                        <br>с&nbsp;итальянской фурнитурой AGB.</p>
+                                </div>
+                            </div>
+                            <div class="review__bottom"><a class="review__btn btn js-img-zoom" href="app/img/model__img.jpg">Посмотреть отзыв<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                                <div
+                                class="review__owl-nav owl-nav">
+                                    <button class="owl-prev js-review-prev">
+                                        <svg class="icon icon-next next" viewBox="0 0 34 15">
+                                            <use xlink:href="/app/icons/sprite.svg#next"></use>
+                                        </svg>
+                                    </button>
+                                    <button class="owl-next js-review-next">
+                                        <svg class="icon icon-next next" viewBox="0 0 34 15">
+                                            <use xlink:href="/app/icons/sprite.svg#next"></use>
+                                        </svg>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="review__slide">
+                <div class="review__row flex flex_justify">
+                    <div class="review__gallery-wrap">
+                        <div class="review__gallery js-gallery">
+                            <div class="review__gallery-slide">
+                                <div class="review__thumb">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/iphone.webp">
+                                            <img src="/app/img/iphone.png" class="review__img" alt="" role="presentation" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="review__gallery-slide">
+                                <div class="review__thumb">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/iphone.webp">
+                                            <img src="/app/img/iphone.png" class="review__img" alt="" role="presentation" />
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class="review__gallery-slide">
+                                <div class="review__thumb">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/iphone.webp">
+                                            <img src="/app/img/iphone.png" class="review__img" alt="" role="presentation" />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__info">
+                        <div class="review__head">
+                            <h2 class="review__title">Узнайте, что говорят покупатели дверей ProfilDoors</h2>
+                            <div class="review__avtor">
+                                <div class="review__avtor-icon">“</div>
+                                <div class="review__avtor-name"><strong>Михаил Оборонов</strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review__content content flex flex_justify">
+                            <div class="review__content-left">
+                                <H3 class="h3">Понравилось:</H3>
+                                <p>«К концу ремонта искали двери в&nbsp;современном стиле, которые было бы сложно повредить собаке и&nbsp;детям.</p>
+                                <p>Понравилось, что помогли подобрать и&nbsp;не навязывали лишнего. Дверьми тоже довольны, выглядят надёжно»</p>
+                            </div>
+                            <div class="review__content-right">
+                                <h4>Стоит улучшить:</h4>
+                                <p>Доставку можно чуть быстрее сделать</p>
+                                <h4>Купил:</h4>
+                                <p>3 межкомнатные двери серии E
+                                    <br>с&nbsp;итальянской фурнитурой AGB.</p>
+                            </div>
+                        </div>
+                        <div class="review__bottom"><a class="review__btn btn js-img-zoom" href="app/img/model__img.jpg">Посмотреть отзыв<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                            <div
+                            class="review__owl-nav owl-nav">
+                                <button class="owl-prev js-review-prev">
+                                    <svg class="icon icon-next next" viewBox="0 0 34 15">
+                                        <use xlink:href="/app/icons/sprite.svg#next"></use>
+                                    </svg>
+                                </button>
+                                <button class="owl-next js-review-next">
+                                    <svg class="icon icon-next next" viewBox="0 0 34 15">
+                                        <use xlink:href="/app/icons/sprite.svg#next"></use>
+                                    </svg>
+                                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="office">
+        <div class="office__wrap wrap">
+            <div class="office__row flex flex_justify">
+                <div class="office__left-column">
+                    <h2 class="office__title h2">Посетите наши салоны <br>в&nbsp;Санкт-Петербурге</h2>
+                </div>
+                <div class="office__right-column">
+                    <div class="office__nav"><a class="office__nav-item active" href="#south">Южный молл</a><a class="office__nav-item" href="#north">Северный Молл</a>
+                    </div>
+                </div>
+            </div>
+            <div class="office__list">
+                <div class="office__item" id="south">
+                    <div class="office__row flex flex_justify">
+                        <div class="office__left-column">
+                            <div class="office__gallery js-office">
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office1_1.webp">
+                                            <img src="/app/img/office1_1.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office1_2.webp">
+                                            <img src="/app/img/office1_2.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office1_3.webp">
+                                            <img src="/app/img/office1_3.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office1_4.webp">
+                                            <img src="/app/img/office1_4.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office1_5.webp">
+                                            <img src="/app/img/office1_5.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office1_6.webp">
+                                            <img src="/app/img/office1_6.jpg" />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="office__right-column office__info">
+                            <div class="office__content">
+                                <div class="office__desc desc color color_grey">На севере и&nbsp;юге города доступны два салона в&nbsp;20 минутах езды. Вас ждёт кофе, уютный выставочный зал и&nbsp;игровая комната для&nbsp;детей.</div>
+                                <div class="office__desc desc color color_grey">В салонах представлены 14 дверных коллекций, фурнитура и&nbsp;7 систем открывания. Убедитесь лично в&nbsp;качестве материалов и&nbsp;монтажа.</div>
+                            </div>
+                            <div class="office__bottom">
+                                <div class="office__desc desc"><strong>Консультанты ответят на&nbsp;вопросы, помогут определиться с&nbsp;моделью двери и&nbsp;расскажут об&nbsp;уходе.</strong>
+                                </div><a class="office__btn btn js-modal" href="#call">Получить консультацию<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="office__item" id="north">
+                    <div class="office__row flex flex_justify">
+                        <div class="office__left-column">
+                            <div class="office__gallery js-office">
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_1.webp">
+                                            <img src="/app/img/office2_1.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_2.webp">
+                                            <img src="/app/img/office2_2.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_3.webp">
+                                            <img src="/app/img/office2_3.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_4.webp">
+                                            <img src="/app/img/office2_4.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_5.webp">
+                                            <img src="/app/img/office2_5.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_6.webp">
+                                            <img src="/app/img/office2_6.jpg" />
+                                    </picture>
+                                </div>
+                                <div class="office__foto">
+                                    <picture>
+                                        <source type="image/webp" srcset="/app/img/office2_7.webp">
+                                            <img src="/app/img/office2_7.jpg" />
+                                    </picture>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="office__right-column office__info">
+                            <div class="office__content">
+                                <div class="office__desc desc color color_grey">На севере и&nbsp;юге города доступны два салона в&nbsp;20 минутах езды. Вас ждёт кофе, уютный выставочный зал и&nbsp;игровая комната для&nbsp;детей.</div>
+                                <div class="office__desc desc color color_grey">В салонах представлены 14 дверных коллекций, фурнитура и&nbsp;7 систем открывания. Убедитесь лично в&nbsp;качестве материалов и&nbsp;монтажа.</div>
+                            </div>
+                            <div class="office__bottom">
+                                <div class="office__desc desc"><strong>Консультанты ответят на&nbsp;вопросы, помогут определиться с&nbsp;моделью двери и&nbsp;расскажут об&nbsp;уходе.</strong>
+                                </div><a class="office__btn btn js-modal" href="#call">Получить консультацию<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="quiz modals mfp-hide open" id="quiz">
+        <div class="quiz__step-list">
+            <div class="quiz__step active">
+                <div class="quiz__row flex flex_justify">
+                    <div class="quiz__box quiz__box_first">
+                        <h3 class="quiz__title h3">Двери в&nbsp;каком стиле предпочитаете?</h3>
+                        <div class="quiz__options">
+                            <div class="quiz__door-list flex flex_justify">
+                                <div class="quiz__door-item quiz__door-item_style js-next-step">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step1_img1.webp">
+                                                <img src="/app/img/step1_img1.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Классический</div>
+                                </div>
+                                <div class="quiz__door-item quiz__door-item_style js-next-step">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step1_img2.webp">
+                                                <img src="/app/img/step1_img2.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Современный</div>
+                                </div>
+                                <div class="quiz__door-item quiz__door-item_style js-next-step">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step1_img3.webp">
+                                                <img src="/app/img/step1_img3.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Рассматриваю оба</div>
+                                </div>
+                            </div>
+                            <div class="quiz__action">
+                                <div class="quiz__polity"></div>
+                                <button class="quiz__btn btn js-next-step">Следующий шаг
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="quiz__complete">
+                            <div class="quiz__complete-scale">
+                                <div class="quiz__complete-loaded" style="width:20%"></div>
+                            </div>
+                            <div class="quiz__complete-text">Шаг 1 из&nbsp;5</div>
+                        </div>
+                    </div>
+                    <div class="quiz__result quiz__result_first">
+                        <h3 class="quiz__result-title h3">Ответьте на&nbsp;5 вопросов,<br>чтобы получить скидку<br>и&nbsp;бесплатную доставку</h3>
+                        <div class="quiz__result-round">
+                            <picture>
+                                <source type="image/webp" srcset="/app/img/discount.webp">
+                                    <img src="/app/img/discount.png" class="quiz__result-icon" alt="" role="presentation" />
+                            </picture>
+                            <div class="quiz__result-discount">
+                                <div class="quiz__result-percent">+3%</div>
+                                <div class="quiz__result-small">Скидка</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz__step">
+                <div class="quiz__row flex flex_justify">
+                    <div class="quiz__box">
+                        <h3 class="quiz__title h3">Выберите какие оттенки покрытий вам нравятся</h3>
+                        <div class="quiz__options">
+                            <div class="quiz__color-list flex flex_justify">
+                                <div class="quiz__color-item" data-color-name="Светлые; ">
+                                    <div class="quiz__color-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step2_img1.webp">
+                                                <img src="/app/img/step2_img1.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__color-name">Светлые</div>
+                                </div>
+                                <div class="quiz__color-item" data-color-name="Бежевые; ">
+                                    <div class="quiz__color-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step2_img2.webp">
+                                                <img src="/app/img/step2_img2.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__color-name">Бежевые</div>
+                                </div>
+                                <div class="quiz__color-item" data-color-name="Серые; ">
+                                    <div class="quiz__color-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step2_img3.webp">
+                                                <img src="/app/img/step2_img3.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__color-name">Серые</div>
+                                </div>
+                                <div class="quiz__color-item" data-color-name="Черные; ">
+                                    <div class="quiz__color-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step2_img4.webp">
+                                                <img src="/app/img/step2_img4.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__color-name">Черные</div>
+                                </div>
+                                <div class="quiz__color-item" data-color-name="Коричневые; ">
+                                    <div class="quiz__color-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step2_img5.webp">
+                                                <img src="/app/img/step2_img5.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__color-name">Коричневые</div>
+                                </div>
+                                <div class="quiz__color-item" data-color-name="Яркие цвета; ">
+                                    <div class="quiz__color-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step2_img6.webp">
+                                                <img src="/app/img/step2_img6.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__color-name">Яркие цвета</div>
+                                </div>
+                            </div>
+                            <div class="quiz__action">
+                                <div class="quiz__polity"></div>
+                                <button class="quiz__btn btn js-next-step js-array-color">Следующий шаг
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="quiz__complete">
+                            <div class="quiz__complete-scale">
+                                <div class="quiz__complete-loaded" style="width:40%"></div>
+                            </div>
+                            <div class="quiz__complete-text">Шаг 2 из&nbsp;5</div>
+                        </div>
+                    </div>
+                    <div class="quiz__result">
+                        <h3 class="quiz__result-title h3">Ответьте на&nbsp;5 вопросов,<br>чтобы получить скидку<br>и&nbsp;бесплатную доставку</h3>
+                        <div class="quiz__result-round">
+                            <picture>
+                                <source type="image/webp" srcset="/app/img/discount.webp">
+                                    <img src="/app/img/discount.png" class="quiz__result-icon" alt="" role="presentation" />
+                            </picture>
+                            <div class="quiz__result-discount">
+                                <div class="quiz__result-percent">+5%</div>
+                                <div class="quiz__result-small">Скидка</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz__step">
+                <div class="quiz__row flex flex_justify">
+                    <div class="quiz__box">
+                        <h3 class="quiz__title h3">Сколько дверей вам нужно?</h3>
+                        <div class="quiz__options">
+                            <div class="quiz__door-list flex flex_justify">
+                                <div class="quiz__door-item quiz__door-item_counter js-next-step">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step3_img1.webp">
+                                                <img src="/app/img/step3_img1.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Одна</div>
+                                </div>
+                                <div class="quiz__door-item quiz__door-item_counter js-next-step">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step3_img2.webp">
+                                                <img src="/app/img/step3_img2.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Две</div>
+                                </div>
+                                <div class="quiz__door-item quiz__door-item_counter js-next-step">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step3_img3.webp">
+                                                <img src="/app/img/step3_img3.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Три и&nbsp;более</div>
+                                </div>
+                            </div>
+                            <div class="quiz__action">
+                                <div class="quiz__polity"></div>
+                                <button class="quiz__btn btn js-next-step">Следующий шаг
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="quiz__complete">
+                            <div class="quiz__complete-scale">
+                                <div class="quiz__complete-loaded" style="width:60%"></div>
+                            </div>
+                            <div class="quiz__complete-text">Шаг 3 из&nbsp;5</div>
+                        </div>
+                    </div>
+                    <div class="quiz__result">
+                        <h3 class="quiz__result-title h3">Ответьте на&nbsp;5 вопросов,<br>чтобы получить скидку<br>и&nbsp;бесплатную доставку</h3>
+                        <div class="quiz__result-round">
+                            <picture>
+                                <source type="image/webp" srcset="/app/img/discount.webp">
+                                    <img src="/app/img/discount.png" class="quiz__result-icon" alt="" role="presentation" />
+                            </picture>
+                            <div class="quiz__result-discount">
+                                <div class="quiz__result-percent">+7%</div>
+                                <div class="quiz__result-small">Скидка</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz__step">
+                <div class="quiz__row flex flex_justify">
+                    <div class="quiz__box">
+                        <h3 class="quiz__title h3">Выберите необходимые услуги</h3>
+                        <div class="quiz__options">
+                            <div class="quiz__door-list flex flex_justify">
+                                <div class="quiz__door-item quiz__door-item_service" data-service-name="Замер проёмов; ">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step4_img1.webp">
+                                                <img src="/app/img/step4_img1.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Замер проёмов</div>
+                                </div>
+                                <div class="quiz__door-item quiz__door-item_service" data-service-name="Доставка; ">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step4_img2.webp">
+                                                <img src="/app/img/step4_img2.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Доставка</div>
+                                </div>
+                                <div class="quiz__door-item quiz__door-item_service" data-service-name="Монтаж дверей; ">
+                                    <div class="quiz__door-img">
+                                        <picture>
+                                            <source type="image/webp" srcset="/app/img/step4_img3.webp">
+                                                <img src="/app/img/step4_img3.jpg" />
+                                        </picture>
+                                    </div>
+                                    <div class="quiz__door-name">Монтаж дверей</div>
+                                </div>
+                            </div>
+                            <div class="quiz__action">
+                                <div class="quiz__polity"></div>
+                                <button class="quiz__btn btn js-next-step js-array-service">Следующий шаг
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="quiz__complete">
+                            <div class="quiz__complete-scale">
+                                <div class="quiz__complete-loaded" style="width:80%"></div>
+                            </div>
+                            <div class="quiz__complete-text">Шаг 4 из&nbsp;5</div>
+                        </div>
+                    </div>
+                    <div class="quiz__result">
+                        <h3 class="quiz__result-title h3">Ответьте на&nbsp;5 вопросов,<br>чтобы получить скидку<br>и&nbsp;бесплатную доставку</h3>
+                        <div class="quiz__result-round">
+                            <picture>
+                                <source type="image/webp" srcset="/app/img/discount.webp">
+                                    <img src="/app/img/discount.png" class="quiz__result-icon" alt="" role="presentation" />
+                            </picture>
+                            <div class="quiz__result-discount">
+                                <div class="quiz__result-percent">+7%</div>
+                                <div class="quiz__result-small">Скидка</div>
+                            </div>
+                        </div>
+                        <div class="quiz__delivery">
+                            <div class="quiz__delivery-desc desc"><strong>+ Бесплатная доставка</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="quiz__step">
+                <div class="quiz__row flex flex_justify">
+                    <div class="quiz__box">
+                        <h3 class="quiz__title h3"> Введите контакты, чтобы <br>получить 2 варианта дверей <br>по&nbsp;вашим параметрам</h3>
+                        <div class="quiz__options">
+                            <form class="quiz__form form" action="#" data-thancks-name="#thanks2">
+                                <input type="hidden" name="subj" value="Заявка с&nbsp;квиза" />
+                                <input type="hidden" name="style" />
+                                <input type="hidden" name="color" />
+                                <input type="hidden" name="counter" />
+                                <input type="hidden" name="service" />
+                                <div class="quiz__field-list form__field-list">
+                                    <div class="quiz__field form__field">
+                                        <label class="quiz__label form__label p color color_grey">Ваше имя</label>
+                                        <input class="quiz__input form__input" placeholder="Евгений" type="text" name="name" />
+                                    </div>
+                                    <div class="quiz__field form__field">
+                                        <label class="quiz__label form__label p color color_grey">Ваш номер телефона</label>
+                                        <input class="quiz__input form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                                    </div>
+                                </div>
+                                <div class="quiz__action">
+                                    <div class="quiz__polity form__polity">Оставляя заявку, вы соглашаетесь
+                                        <br>с&nbsp;обработкой <a href="#">персональных данных</a>
+                                    </div>
+                                    <button class="quiz__btn btn" type="submit" name="quiz">Получить предложение
+                                        <div class="btn__icon">
+                                            <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                                <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="quiz__complete">
+                            <div class="quiz__complete-scale">
+                                <div class="quiz__complete-loaded" style="width:100%"></div>
+                            </div>
+                            <div class="quiz__complete-text">Шаг 5 из&nbsp;5</div>
+                        </div>
+                    </div>
+                    <div class="quiz__result">
+                        <h3 class="quiz__result-title h3">Спасибо! <br>Опрос завершен</h3>
+                        <div class="quiz__result-round">
+                            <picture>
+                                <source type="image/webp" srcset="/app/img/discount.webp">
+                                    <img src="/app/img/discount.png" class="quiz__result-icon" alt="" role="presentation" />
+                            </picture>
+                            <div class="quiz__result-discount">
+                                <div class="quiz__result-percent">+7%</div>
+                                <div class="quiz__result-small">Скидка</div>
+                            </div>
+                        </div>
+                        <div class="quiz__delivery">
+                            <div class="quiz__delivery-desc desc"><strong>+ Бесплатная доставка</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cart modals mfp-hide" id="catalog">
+        <h2 class="cart__title">Популярные модели</h2>
+        <div class="cart__category-list">
+            <div class="cart__category-item" id="modern">
+                <div class="cart__slider owl-carousel js-popup-slider">
+                    <div class="cart__row">
+                        <div class="cart__preview">
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img1.webp">
+                                        <img src="/app/img/catalog__img1.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img2.webp">
+                                        <img src="/app/img/catalog__img2.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img3.webp">
+                                        <img src="/app/img/catalog__img3.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img4.webp">
+                                        <img src="/app/img/catalog__img4.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img5.webp">
+                                        <img src="/app/img/catalog__img5.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img6.webp">
+                                        <img src="/app/img/catalog__img6.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="cart__option-list">
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Стекло</strong>
+                                </div>
+                                <div class="cart__option-desc">Белый триплекс</div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Выбрать цвет</strong>
+                                </div>
+                                <div class="cart__option-desc js-color-name">Не выбрано</div>
+                                <div class="cart__color-list">
+                                    <div class="cart__color-item js-color active" style="background:#D0CAC3" data-color-name="Капучино мелинга"></div>
+                                    <div class="cart__color-item js-color" style="background:#644332" data-color-name="Цвет2"></div>
+                                    <div class="cart__color-item js-color" style="background:#5C5753" data-color-name="Цвет3"></div>
+                                    <div class="cart__color-item js-color" style="background:#3F3432" data-color-name="Цвет4"></div>
+                                    <div class="cart__color-item js-color" style="background:#827C76" data-color-name="Цвет5"></div>
+                                    <div class="cart__color-item js-color" style="background:#D2C9C3" data-color-name="Цвет6"></div>
+                                </div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-price h3"><strong>12 700 руб.</strong>
+                                </div>
+                                <div class="cart__option-desc p">Комплект: полотно, короб, наличники и&nbsp;фурнитура.</div>
+                            </div>
+                        </div>
+                        <div class="cart__info">
+                            <div class="cart__nav"><a class="cart__nav-item active" href="#modern">Модерн</a><a class="cart__nav-item" href="#classic">Классика</a>
+                            </div>
+                            <div class="cart__name"><strong>Модель 19X</strong>
+                            </div>
+                            <div class="cart__content content color color_grey">
+                                <p>Серия Х представлена царговыми дверьми в&nbsp;лаконичном стиле. Преимущество коллекции в&nbsp;прочной сборно-разборной конструкции.</p>
+                                <p>Двери выполнены в&nbsp;покрытии с&nbsp;точной имитацией среза натуральной древесины.</p>
+                            </div>
+                            <form class="form cart__form" action="#" data-thancks-name="#thanks2">
+                                <input type="hidden" name="subj" value="Покупка двери" />
+                                <input type="hidden" name="color" value="" />
+                                <div class="form__field">
+                                    <label class="form__label p color color_grey">Ваш номер телефона</label>
+                                    <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                                </div>
+                                <button class="form__btn btn" type="submit" name="buy">Вызвать заемщика
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cart__row">
+                        <div class="cart__preview">
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img6.webp">
+                                        <img src="/app/img/catalog__img6.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img2.webp">
+                                        <img src="/app/img/catalog__img2.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img3.webp">
+                                        <img src="/app/img/catalog__img3.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img4.webp">
+                                        <img src="/app/img/catalog__img4.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img5.webp">
+                                        <img src="/app/img/catalog__img5.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img1.webp">
+                                        <img src="/app/img/catalog__img1.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="cart__option-list">
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Стекло</strong>
+                                </div>
+                                <div class="cart__option-desc">Белый триплекс</div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Выбрать цвет</strong>
+                                </div>
+                                <div class="cart__option-desc js-color-name">Не выбрано</div>
+                                <div class="cart__color-list">
+                                    <div class="cart__color-item js-color active" style="background:#D0CAC3" data-color-name="Капучино мелинга"></div>
+                                    <div class="cart__color-item js-color" style="background:#644332" data-color-name="Цвет2"></div>
+                                    <div class="cart__color-item js-color" style="background:#5C5753" data-color-name="Цвет3"></div>
+                                    <div class="cart__color-item js-color" style="background:#3F3432" data-color-name="Цвет4"></div>
+                                    <div class="cart__color-item js-color" style="background:#827C76" data-color-name="Цвет5"></div>
+                                    <div class="cart__color-item js-color" style="background:#D2C9C3" data-color-name="Цвет6"></div>
+                                </div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-price h3"><strong>12 750 руб.</strong>
+                                </div>
+                                <div class="cart__option-desc p">Комплект: полотно, короб, наличники и&nbsp;фурнитура.</div>
+                            </div>
+                        </div>
+                        <div class="cart__info">
+                            <div class="cart__nav"><a class="cart__nav-item active" href="#modern">Модерн</a><a class="cart__nav-item" href="#classic">Классика</a>
+                            </div>
+                            <div class="cart__name"><strong>Модель 129X</strong>
+                            </div>
+                            <div class="cart__content content color color_grey">
+                                <p>Серия Х представлена царговыми дверьми в&nbsp;лаконичном стиле. Преимущество коллекции в&nbsp;прочной сборно-разборной конструкции.</p>
+                                <p>Двери выполнены в&nbsp;покрытии с&nbsp;точной имитацией среза натуральной древесины.</p>
+                            </div>
+                            <form class="form cart__form" action="#" data-thancks-name="#thanks2">
+                                <input type="hidden" name="subj" value="Покупка двери" />
+                                <input type="hidden" name="color" value="" />
+                                <div class="form__field">
+                                    <label class="form__label p color color_grey">Ваш номер телефона</label>
+                                    <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                                </div>
+                                <button class="form__btn btn" type="submit" name="buy">Вызвать заемщика
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cart__category-item" id="classic">
+                <div class="cart__slider owl-carousel js-popup-slider">
+                    <div class="cart__row">
+                        <div class="cart__preview">
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img1.webp">
+                                        <img src="/app/img/catalog__img1.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img2.webp">
+                                        <img src="/app/img/catalog__img2.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img3.webp">
+                                        <img src="/app/img/catalog__img3.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img4.webp">
+                                        <img src="/app/img/catalog__img4.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img5.webp">
+                                        <img src="/app/img/catalog__img5.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img6.webp">
+                                        <img src="/app/img/catalog__img6.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="cart__option-list">
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Стекло</strong>
+                                </div>
+                                <div class="cart__option-desc">Белый триплекс</div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Выбрать цвет</strong>
+                                </div>
+                                <div class="cart__option-desc js-color-name">Не выбрано</div>
+                                <div class="cart__color-list">
+                                    <div class="cart__color-item js-color active" style="background:#D0CAC3" data-color-name="Капучино мелинга"></div>
+                                    <div class="cart__color-item js-color" style="background:#644332" data-color-name="Цвет2"></div>
+                                    <div class="cart__color-item js-color" style="background:#5C5753" data-color-name="Цвет3"></div>
+                                    <div class="cart__color-item js-color" style="background:#3F3432" data-color-name="Цвет4"></div>
+                                    <div class="cart__color-item js-color" style="background:#827C76" data-color-name="Цвет5"></div>
+                                    <div class="cart__color-item js-color" style="background:#D2C9C3" data-color-name="Цвет6"></div>
+                                </div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-price h3"><strong>12 700 руб.</strong>
+                                </div>
+                                <div class="cart__option-desc p">Комплект: полотно, короб, наличники и&nbsp;фурнитура.</div>
+                            </div>
+                        </div>
+                        <div class="cart__info">
+                            <div class="cart__nav"><a class="cart__nav-item active" href="#modern">Модерн</a><a class="cart__nav-item" href="#classic">Классика</a>
+                            </div>
+                            <div class="cart__name"><strong>Модель 19X</strong>
+                            </div>
+                            <div class="cart__content content color color_grey">
+                                <p>Серия Х представлена царговыми дверьми в&nbsp;лаконичном стиле. Преимущество коллекции в&nbsp;прочной сборно-разборной конструкции.</p>
+                                <p>Двери выполнены в&nbsp;покрытии с&nbsp;точной имитацией среза натуральной древесины.</p>
+                            </div>
+                            <form class="form cart__form" action="#" data-thancks-name="#thanks2">
+                                <input type="hidden" name="subj" value="Покупка двери" />
+                                <input type="hidden" name="color" value="" />
+                                <div class="form__field">
+                                    <label class="form__label p color color_grey">Ваш номер телефона</label>
+                                    <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                                </div>
+                                <button class="form__btn btn" type="submit" name="buy">Вызвать заемщика
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cart__row">
+                        <div class="cart__preview">
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img6.webp">
+                                        <img src="/app/img/catalog__img6.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img2.webp">
+                                        <img src="/app/img/catalog__img2.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img3.webp">
+                                        <img src="/app/img/catalog__img3.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img4.webp">
+                                        <img src="/app/img/catalog__img4.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img5.webp">
+                                        <img src="/app/img/catalog__img5.png" />
+                                </picture>
+                            </div>
+                            <div class="cart__preview-img">
+                                <picture>
+                                    <source type="image/webp" srcset="/app/img/catalog__img1.webp">
+                                        <img src="/app/img/catalog__img1.png" />
+                                </picture>
+                            </div>
+                        </div>
+                        <div class="cart__option-list">
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Стекло</strong>
+                                </div>
+                                <div class="cart__option-desc">Белый триплекс</div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-title"><strong>Выбрать цвет</strong>
+                                </div>
+                                <div class="cart__option-desc js-color-name">Не выбрано</div>
+                                <div class="cart__color-list">
+                                    <div class="cart__color-item js-color active" style="background:#D0CAC3" data-color-name="Капучино мелинга"></div>
+                                    <div class="cart__color-item js-color" style="background:#644332" data-color-name="Цвет2"></div>
+                                    <div class="cart__color-item js-color" style="background:#5C5753" data-color-name="Цвет3"></div>
+                                    <div class="cart__color-item js-color" style="background:#3F3432" data-color-name="Цвет4"></div>
+                                    <div class="cart__color-item js-color" style="background:#827C76" data-color-name="Цвет5"></div>
+                                    <div class="cart__color-item js-color" style="background:#D2C9C3" data-color-name="Цвет6"></div>
+                                </div>
+                            </div>
+                            <div class="cart__option-item">
+                                <div class="cart__option-price h3"><strong>12 750 руб.</strong>
+                                </div>
+                                <div class="cart__option-desc p">Комплект: полотно, короб, наличники и&nbsp;фурнитура.</div>
+                            </div>
+                        </div>
+                        <div class="cart__info">
+                            <div class="cart__nav"><a class="cart__nav-item active" href="#modern">Модерн</a><a class="cart__nav-item" href="#classic">Классика</a>
+                            </div>
+                            <div class="cart__name"><strong>Модель 129X</strong>
+                            </div>
+                            <div class="cart__content content color color_grey">
+                                <p>Серия Х представлена царговыми дверьми в&nbsp;лаконичном стиле. Преимущество коллекции в&nbsp;прочной сборно-разборной конструкции.</p>
+                                <p>Двери выполнены в&nbsp;покрытии с&nbsp;точной имитацией среза натуральной древесины.</p>
+                            </div>
+                            <form class="form cart__form" action="#" data-thancks-name="#thanks2">
+                                <input type="hidden" name="subj" value="Покупка двери" />
+                                <input type="hidden" name="color" value="" />
+                                <div class="form__field">
+                                    <label class="form__label p color color_grey">Ваш номер телефона</label>
+                                    <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                                </div>
+                                <button class="form__btn btn" type="submit" name="buy">Вызвать заемщика
+                                    <div class="btn__icon">
+                                        <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                            <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                                        </svg>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form class="form form_modal flex flex_justify modals mfp-hide" id="call" action="#" data-thancks-name="#thanks1">
+        <input type="hidden" name="subj" value="Заявка на&nbsp;консультацию" />
+        <div class="form__box">
+            <div class="form__inside-wrap">
+                <div class="form__title"> <strong>Оставьте заявку</strong>
+                </div>
+                <div class="form__desc desc color color_grey">наш специалист ответит на&nbsp;вопросы</div>
+                <div class="form__field-wrap">
+                    <div class="form__field">
+                        <label class="form__label p color color_grey">Ваше имя</label>
+                        <input class="form__input" placeholder="Евгений" type="text" name="name" />
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label p color color_grey">Ваш номер телефона</label>
+                        <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                    </div>
+                    <button class="form__btn btn" type="submit" name="send">Получить консультацию
+                        <div class="btn__icon">
+                            <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="form__polity form__polity_center">Оставляя заявку, вы соглашаетесь
+                        <br>с&nbsp;обработкой <a href="#">персональных данных</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__manager form__manager_woman">
+            <div class="form__manager-info">
+                <div class="form__manager-work p"> <strong>Менеджер салона ProfilDoors</strong>
+                </div>
+                <div class="form__manager-name color color_grey">Кузьмина Екатерина</div>
+            </div>
+        </div>
+    </form>
+    <form class="form form_modal flex flex_justify modals mfp-hide" id="sample" action="#" data-thancks-name="#thanks2">
+        <input type="hidden" name="subj" value="Заявка на&nbsp;замер" />
+        <div class="form__box">
+            <div class="form__inside-wrap">
+                <div class="form__title"> <strong> Вызовите <br>бесплатно мастера</strong>
+                </div>
+                <div class="form__desc desc color color_grey">чтобы замерить проёмы</div>
+                <div class="form__field-wrap">
+                    <div class="form__field">
+                        <label class="form__label p color color_grey">Ваше имя</label>
+                        <input class="form__input" placeholder="Евгений" type="text" name="name" />
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label p color color_grey">Ваш номер телефона</label>
+                        <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                    </div>
+                    <button class="form__btn btn" type="submit" name="send">Получить консультацию
+                        <div class="btn__icon">
+                            <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="form__polity form__polity_center">Оставляя заявку, вы соглашаетесь
+                        <br>с&nbsp;обработкой <a href="#">персональных данных</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__manager form__manager_man">
+            <div class="form__manager-info">
+                <div class="form__manager-work p"> <strong>Менеджер салона ProfilDoors</strong>
+                </div>
+                <div class="form__manager-name color color_grey">Шкуров Антон</div>
+            </div>
+        </div>
+    </form>
+    <form class="form form_modal flex flex_justify modals mfp-hide" id="docs" action="#" data-thancks-name="#thanks3">
+        <input type="hidden" name="subj" value="Заявка на&nbsp;каталог" />
+        <div class="form__box">
+            <div class="form__inside-wrap">
+                <div class="form__title"> <strong> Получите <br>полный каталог</strong>
+                </div>
+                <div class="form__desc desc color color_grey">На электронную почту</div>
+                <div class="form__field-wrap">
+                    <div class="form__field">
+                        <label class="form__label p color color_grey">Ваш email</label>
+                        <input class="form__input" placeholder="Введите email" type="email" name="email" />
+                    </div>
+                    <div class="form__field">
+                        <label class="form__label p color color_grey">Ваш номер телефона</label>
+                        <input class="form__input" placeholder="+7 (000) 000-00-00" type="tel" name="phone" />
+                    </div>
+                    <button class="form__btn btn" type="submit" name="catalog">Получить каталог
+                        <div class="btn__icon">
+                            <svg class="icon icon-arrow arrow" viewBox="0 0 10 16">
+                                <use xlink:href="/app/icons/sprite.svg#arrow"></use>
+                            </svg>
+                        </div>
+                    </button>
+                    <div class="form__polity form__polity_center">Оставляя заявку, вы соглашаетесь
+                        <br>с&nbsp;обработкой <a href="#">персональных данных</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form__manager form__manager_catalog">
+            <picture>
+                <source type="image/webp" srcset="/app/img/magazine3.webp">
+                    <img src="/app/img/magazine3.png" class="form__catalog-img" alt="" role="presentation" />
+            </picture>
+        </div>
+    </form>
+    <div class="form form_modal flex flex_justify modals mfp-hide" id="thanks1">
+        <div class="form__box form__box_thanck">
+            <div class="form__inside-wrap">
+                <div class="form__title form__title_mb30"><strong> Спасибо, что выбрали <br>наш салон!</strong>
+                </div>
+                <div class="form__desc form__desc_mb35 desc color color_grey">Консультант свяжется в&nbsp;течение 15 минут</div>
+                <div class="form__line"></div>
+                <div class="form__desc form__desc_mb30 desc color color_grey">При дополнительных вопросах звоните
+                    <br>с&nbsp;10:00 до&nbsp;21:00 по&nbsp;номеру</div><a class="form__phone-number" href="tel:+78124256169">+7 (812) <strong>425-61-69</strong></a>
+            </div>
+        </div>
+        <div class="form__manager form__manager_woman">
+            <div class="form__manager-info">
+                <div class="form__manager-work p"> <strong>Менеджер салона ProfilDoors</strong>
+                </div>
+                <div class="form__manager-name color color_grey">Кузьмина Екатерина</div>
+            </div>
+        </div>
+    </div>
+    <div class="form form_modal flex flex_justify modals mfp-hide" id="thanks2">
+        <div class="form__box form__box_thanck">
+            <div class="form__inside-wrap">
+                <div class="form__title form__title_mb30"><strong> Спасибо, что выбрали <br>наш салон!</strong>
+                </div>
+                <div class="form__desc form__desc_mb35 desc color color_grey">Консультант свяжется в&nbsp;течение 15 минут</div>
+                <div class="form__line"></div>
+                <div class="form__desc form__desc_mb30 desc color color_grey">При дополнительных вопросах звоните
+                    <br>с&nbsp;10:00 до&nbsp;21:00 по&nbsp;номеру</div><a class="form__phone-number" href="tel:+78124256169">+7 (812) <strong>425-61-69</strong></a>
+            </div>
+        </div>
+        <div class="form__manager form__manager_man">
+            <div class="form__manager-info">
+                <div class="form__manager-work p"> <strong>Менеджер салона ProfilDoors</strong>
+                </div>
+                <div class="form__manager-name color color_grey">Шкуров Антон</div>
+            </div>
+        </div>
+    </div>
+    <div class="form form_modal flex flex_justify modals mfp-hide" id="thanks3">
+        <div class="form__box form__box_thanck">
+            <div class="form__inside-wrap">
+                <div class="form__title form__title_mb30"><strong> Спасибо, что выбрали <br>наш салон!</strong>
+                </div>
+                <div class="form__desc form__desc_mb35 desc color color_grey">Полный каталог дверей уже отправлен
+                    <br>на&nbsp;ваш электронный адрес</div>
+                <div class="form__line"></div>
+                <div class="form__desc form__desc_mb30 desc color color_grey">При дополнительных вопросах звоните
+                    <br>с&nbsp;10:00 до&nbsp;21:00 по&nbsp;номеру</div><a class="form__phone-number" href="tel:+78124256169">+7 (812) <strong>425-61-69</strong></a>
+            </div>
+        </div>
+        <div class="form__manager form__manager_woman">
+            <div class="form__manager-info">
+                <div class="form__manager-work p"> <strong>Менеджер салона ProfilDoors</strong>
+                </div>
+                <div class="form__manager-name color color_grey">Кузьмина Екатерина</div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__map" id="map"></div>
+        <div class="footer__wrap wrap">
+            <div class="footer__contact contact flex flex_justify">
+                <div class="footer__list">
+                    <div class="footer__item">
+                        <div class="footer__desc desc"><strong>Южный молл:</strong>
+                        </div><a class="footer__phone" href="tel:+78124256169">+7 (812) <strong>425-61-69</strong></a>
+                        <div class="footer__adress">
+                            <div class="footer__adress-icon">
+                                <svg class="icon icon-location location" viewBox="0 0 31 47">
+                                    <use xlink:href="/app/icons/sprite.svg#location"></use>
+                                </svg>
+                            </div>
+                            <div class="footer__adress-text"><strong>ул. Варшавская 59</strong>
+                                <br><span class="color_grey">м. Московская</span>
+                            </div>
+                        </div><a class="footer__route" href="#">Проложить маршрут</a>
+                    </div>
+                    <div class="footer__item">
+                        <div class="footer__desc desc"><strong>Северный Молл:</strong>
+                        </div><a class="footer__phone" href="tel:+78124256340">+7 (812) <strong>425-63-40</strong></a>
+                        <div class="footer__adress">
+                            <div class="footer__adress-icon">
+                                <svg class="icon icon-location location" viewBox="0 0 31 47">
+                                    <use xlink:href="/app/icons/sprite.svg#location"></use>
+                                </svg>
+                            </div>
+                            <div class="footer__adress-text"><strong>ул.Уральская 6</strong>
+                                <br><span class="color_grey">м. Василеостровская</span>
+                            </div>
+                        </div><a class="footer__route" href="#">Проложить маршрут</a>
+                    </div>
+                </div>
+                <div class="footer__info"><a class="footer__btn btn js-modal" href="#sample">Вызвать замерщика<div class="btn__icon"><svg class="icon icon-arrow arrow" viewBox="0 0 10 16"><use xlink:href="/app/icons/sprite.svg#arrow"></use></svg></div></a>
+                    <div class="footer__time">
+                        <div class="footer__time-icon">
+                            <svg class="icon icon-clock clock" viewBox="0 0 30 30">
+                                <use xlink:href="/app/icons/sprite.svg#clock"></use>
+                            </svg>
+                        </div>
+                        <div class="footer__time-text"><strong>График работы</strong>
+                            <br><span class="desc">10:00 - 21:00</span>
+                        </div>
+                    </div>
+                    <div class="footer__email">
+                        <div class="footer__email-icon">
+                            <picture>
+                                <source type="image/webp" srcset="/app/img/email.webp">
+                                    <img src="/app/img/email.png" />
+                            </picture>
+                        </div><a class="footer__email-adress" href="mailto:mall@profildoors-spb.ru">mall@profildoors-spb.ru</a>
+                    </div>
+                    <div class="footer__develop flex flex_justify"><a href="https://karanikola.ru" target="_blank">Создание сайта - <strong>Karanikola</strong></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="modals mfp-hide" id="recall"></div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAVfaEXUdaqazXAymi_chvWL5MmmAIL2h8"></script>
+    <script src="/app/js/app.js?v=1576494013460"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
++b.main
+    +e.door
+        img(src="/img/main__door.png")
+    +e.wrap.wrap
+        include ../layouts/header
+        +e.center.flex_justify.flex_start
+            +e.content
+                +e.H1.title.h1
+                    | Экономьте 
+                    span.color_yelow до 20% 
+                    | в фирменной сети салонов ProfilDoors
+                +e.list.desc.flex
+                    +e.A.item._free.js-modal(href="#sample") Замеряем бесплатно
+                        +e.I.item-icon
+                            +icon('play', '0 0 7 9')
+                    +e.item доставляем и устанавливаем
+            +e.faq.faq
+                img.faq__icon(src="/img/help.png")
+                h3.h3.faq__title
+                    | Ответьте 
+                    br 
+                    | на 5 вопросов
+                .p.faq__desc
+                    | чтобы подобрать двери, 
+                    br
+                    | получить скидку 
+                    br
+                    | и бесплатную доставку
+                a.btn.faq__btn.js-modal(href="#quiz") Подобрать двери
+                    .btn__icon
+                        +icon('arrow', '0 0 10 16')
+        +e.A.scroll.flex._vertical._inline.js-scroll-to(href="#model")
+            +e.scroll-btn
+                +e.scroll-icon
+                    +icon('down', '0 0 6 12')
+            +e.scroll-text Листайте далее

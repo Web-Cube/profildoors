@@ -1,0 +1,51 @@
++b.FOOTER.footer
+	+e.map#map
+	+e.wrap.wrap
+		+b.footer__contact.contact.flex_justify
+			+e.list
+				+e.item
+					+e.desc.desc
+						strong Южный молл:
+					+e.A.phone(href="tel:+78124256169")
+						| +7 (812) 
+						strong 425-61-69
+					+e.adress
+						+e.adress-icon
+							+icon('location','0 0 31 47')
+						+e.adress-text
+							strong ул. Варшавская 59
+							br
+							span.color_grey м. Московская
+					+e.A.route(href="#") Проложить маршрут
+				+e.item
+					+e.desc.desc
+						strong Северный Молл:
+					+e.A.phone(href="tel:+78124256340")
+						| +7 (812) 
+						strong 425-63-40
+					+e.adress
+						+e.adress-icon
+							+icon('location','0 0 31 47')
+						+e.adress-text
+							strong ул.Уральская 6
+							br
+							span.color_grey м. Василеостровская
+					+e.A.route(href="#") Проложить маршрут
+			+e.info
+				+e.A.btn.btn.js-modal(href="#sample") Вызвать замерщика
+					.btn__icon
+						+icon('arrow', '0 0 10 16')
+				+e.time
+					+e.time-icon
+						+icon('clock','0 0 30 30')
+					+e.time-text
+						strong График работы
+						br
+						span.desc 10:00 - 21:00
+				+e.email
+					+e.email-icon
+						img(src="/img/email.png")
+					+e.A.email-adress(href="mailto:mall@profildoors-spb.ru") mall@profildoors-spb.ru
+				+e.develop.flex_justify
+					a(href="https://karanikola.ru",target="_blank") Создание сайта - 
+						strong Karanikola

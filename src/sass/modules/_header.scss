@@ -1,0 +1,164 @@
+.header {
+    padding: 20rem 0 20rem 0;
+    &__logo {
+        display: block;
+        margin-right: 25rem;
+        width: 126rem;
+    }
+    &__desc {
+        color: #9D9D9D;
+        line-height: 20rem;
+        font-size: 13rem;
+    }
+    &__location {
+        &-icon {
+            margin-right: 20rem;
+            width: 29rem;
+            fill: #fff;
+        }
+        &-text {
+            font-size: 15rem;
+            line-height: 20rem;
+            color: #9D9D9D;
+        }
+        &-title {
+            color: #fff;
+        }
+        &:first-child {
+            padding-right: 40rem;
+            margin-right: 40rem;
+            border-right: 1px solid #3E3E3E;
+        }
+    }
+    &__phone-number {
+        color: #fff;
+        font-size: 22rem;
+        margin-right: 29rem;
+    }
+    &__phone-btn {
+        background: $yelow;
+        display: block;
+        width: 68rem;
+        height: 68rem;
+        border-radius: 100%;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__phone-icon {
+        width: 18rem;
+		position: relative;
+		z-index: 5;
+    }
+}
+
+.phone-btn {
+	position: relative;
+	&__circle {
+        background: $yelow;
+        border-radius: 50%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        height: 100%;
+	    width: 100%;
+        z-index: 3;
+        animation: circle 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        webkit-animation: circle 2s;
+        webkit-animation-iteration-count: infinite;
+        webkit-animation-timing-function: linear;
+		&:nth-child(1) {
+            animation-delay: 1s;
+            webkit-animation-delay: 1s;
+        }
+        &:nth-child(2) {
+            animation-delay: 1s;
+            webkit-animation-delay: 1s;
+        }
+        &:nth-child(3) {
+            animation-delay: 2s;
+            webkit-animation-delay: 2s;
+        }
+        &:nth-child(4) {
+            animation-delay: 3s;
+            webkit-animation-delay: 3s;
+        }
+    }
+}
+
+@include max-screen($large_tablet) {
+    .header {
+        &__logo {
+            margin-right: 30rem;
+        }
+        &__location {
+            &:first-child {
+                padding-right: 30rem;
+                margin-right: 30rem;
+            }
+        }
+    }
+}
+
+@include max-screen($small_tablet) {
+   .header {
+        &__desc {
+            display: none;
+        }
+       &__phone-number {
+           font-size: 18rem;
+           margin-right: 20rem;
+           margin-left: 20rem;
+       }
+       &__phone-btn {
+           width: 50rem;
+           height: 50rem;
+       }
+       &__phone-icon {
+           width: 16rem;
+       }
+    }
+}
+
+@include max-screen($large_mobile) {
+  .header {
+	  padding-top: 20px;
+      &__logo {
+          width: 80px;
+		  margin-bottom: 30rem;
+      }
+	  &__right {
+		  position: absolute;
+		  right: 15px;
+		  top: 12px;
+	  }
+      &__location {
+          &:first-child {
+              padding-right: 20rem;
+              margin-right: 20rem;
+          }
+          &-icon {
+              width: 22rem;
+              margin-right: 15rem;
+          }
+      }
+      &__center {
+          margin-bottom: 25rem;
+      }
+      &__phone-number {
+          margin-left: 0;
+      }
+    }
+}
+
+@include max-screen($small_mobile) {
+    .header {
+        &__location {
+            &-icon {
+              display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
++b.HEADER.header.flex_vertical.flex_justify
+	+e.left.flex_vertical
+		+e.A.logo(href="/main.html")
+			+e.IMG.logo-pic(src="/img/logo.png")
+		+e.desc
+			| Фирменная сеть салонов 
+			br
+			| ProfilDoors в Санкт-Петербурге
+	+e.center.flex_vertical
+		+e.location.flex
+			+e.location-icon.icon
+				+icon('location', '0 0 31 47')
+			+e.location-text
+				+e.STRONG.location-title ул. Варшавская 59
+				br
+				| м. Московская
+		+e.location.flex
+			+e.location-icon.icon
+				+icon('location', '0 0 31 47')
+			+e.location-text
+				+e.STRONG.location-title ул. Уральская 6
+				br
+				| м. Василеостровская
+	+e.right.flex_vertical
+		+e.A.phone-number(href="tel:+78124256169")
+			| +7 (812) 
+			strong 425-61-69
+		+e.A.phone-btn.phone-btn.js-modal(href="#call")
+			+e.phone-icon
+				+icon('phone', '0 0 18 21')
+			.phone-btn__circle
+			.phone-btn__circle
+			.phone-btn__circle

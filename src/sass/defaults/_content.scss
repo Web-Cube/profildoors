@@ -1,0 +1,73 @@
+
+.content p,.p,
+.content li, .li{
+    font-size: 15rem;
+    line-height: 20rem;
+    letter-spacing: -0.0217em;
+}
+
+.content ul, .content ol{
+
+}
+
+.content b,.b{
+}
+
+.content a,.a{
+
+}
+
+.h1, .content h1,
+.h2, .content h2,
+.h3, .content h3,
+.h4, .content h4,
+.h5, .content h5,
+.h6, .content h6,{
+	font-weight: bold;
+}
+
+.h1, .content h1{
+    font-size: 64rem;
+    line-height: 72rem;
+    letter-spacing: -0.0217em;
+}
+
+.h2, .content h2{
+    font-size: 64rem;
+    line-height: 72rem;
+    letter-spacing: -0.0217em;
+}
+
+.h3, .content h3{
+    font-size: 30rem;
+    line-height: 34rem;
+    letter-spacing: -0.0217em;
+}
+
+.h4, .content h4{
+    font-size: 15rem;
+    line-height: 20rem;
+}
+
+.h5, .content h5{
+}
+
+
+.h6, .content h6{
+}
+
+.desc {
+    font-size: 19rem;
+    line-height: 26rem;
+    letter-spacing: -0.02em;
+}
+
+@include max-screen($large_mobile) {
+    .h1, .content h1, .h2, .content h2 {
+        font-size: 40rem;
+        line-height: 50rem;
+		br {
+			display: none;
+		}
+    }
+}

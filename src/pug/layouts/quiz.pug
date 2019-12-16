@@ -1,0 +1,223 @@
++b.quiz.modals.mfp-hide.open#quiz
+	+e.step-list
+		+e.step.active
+			+e.row.flex_justify
+				+e.box._first
+					+e.H3.title.h3 Двери в каком стиле предпочитаете?
+					+e.options
+						+e.door-list.flex_justify
+							+e.door-item._style.js-next-step
+								+e.door-img
+									img(src="/img/step1_img1.jpg")
+								+e.door-name Классический
+							+e.door-item._style.js-next-step
+								+e.door-img
+									img(src="/img/step1_img2.jpg")
+								+e.door-name Современный
+							+e.door-item._style.js-next-step
+								+e.door-img
+									img(src="/img/step1_img3.jpg")
+								+e.door-name Рассматриваю оба
+						+e.action
+							+e.polity
+							+e.BUTTON.btn.btn.js-next-step Следующий шаг
+								.btn__icon
+									+icon('arrow', '0 0 10 16')
+					+e.complete
+						+e.complete-scale
+							+e.complete-loaded(style="width:20%")
+						+e.complete-text Шаг 1 из 5
+				+e.result._first
+					+e.H3.result-title.h3
+						| Ответьте на 5 вопросов,
+						br
+						| чтобы получить скидку
+						br
+						| и бесплатную доставку
+					+e.result-round
+						+e.IMG.result-icon(src="/img/discount.png")
+						+e.result-discount
+							+e.result-percent +3%
+							+e.result-small Скидка
+		+e.step
+			+e.row.flex_justify
+				+e.box
+					+e.H3.title.h3 Выберите какие оттенки покрытий вам нравятся
+					+e.options
+						+e.color-list.flex_justify
+							+e.color-item(data-color-name="Светлые; ")
+								+e.color-img
+									img(src="/img/step2_img1.jpg")
+								+e.color-name Светлые
+							+e.color-item(data-color-name="Бежевые; ")
+								+e.color-img
+									img(src="/img/step2_img2.jpg")
+								+e.color-name Бежевые
+							+e.color-item(data-color-name="Серые; ")
+								+e.color-img
+									img(src="/img/step2_img3.jpg")
+								+e.color-name Серые
+							+e.color-item(data-color-name="Черные; ")
+								+e.color-img
+									img(src="/img/step2_img4.jpg")
+								+e.color-name Черные
+							+e.color-item(data-color-name="Коричневые; ")
+								+e.color-img
+									img(src="/img/step2_img5.jpg")
+								+e.color-name Коричневые
+							+e.color-item(data-color-name="Яркие цвета; ")
+								+e.color-img
+									img(src="/img/step2_img6.jpg")
+								+e.color-name Яркие цвета
+						+e.action
+							+e.polity
+							+e.BUTTON.btn.btn.js-next-step.js-array-color Следующий шаг
+								.btn__icon
+									+icon('arrow', '0 0 10 16')
+					+e.complete
+						+e.complete-scale
+							+e.complete-loaded(style="width:40%")
+						+e.complete-text Шаг 2 из 5
+				+e.result
+					+e.H3.result-title.h3
+						| Ответьте на 5 вопросов,
+						br
+						| чтобы получить скидку
+						br
+						| и бесплатную доставку
+					+e.result-round
+						+e.IMG.result-icon(src="/img/discount.png")
+						+e.result-discount
+							+e.result-percent +5%
+							+e.result-small Скидка
+		+e.step
+			+e.row.flex_justify
+				+e.box
+					+e.H3.title.h3 Сколько дверей вам нужно?
+					+e.options
+						+e.door-list.flex_justify
+							+e.door-item._counter.js-next-step
+								+e.door-img
+									img(src="/img/step3_img1.jpg")
+								+e.door-name Одна
+							+e.door-item._counter.js-next-step
+								+e.door-img
+									img(src="/img/step3_img2.jpg")
+								+e.door-name Две
+							+e.door-item._counter.js-next-step
+								+e.door-img
+									img(src="/img/step3_img3.jpg")
+								+e.door-name Три и более
+						+e.action
+							+e.polity
+							+e.BUTTON.btn.btn.js-next-step Следующий шаг
+								.btn__icon
+									+icon('arrow', '0 0 10 16')
+					+e.complete
+						+e.complete-scale
+							+e.complete-loaded(style="width:60%")
+						+e.complete-text Шаг 3 из 5
+				+e.result
+					+e.H3.result-title.h3
+						| Ответьте на 5 вопросов,
+						br
+						| чтобы получить скидку
+						br
+						| и бесплатную доставку
+					+e.result-round
+						+e.IMG.result-icon(src="/img/discount.png")
+						+e.result-discount
+							+e.result-percent +7%
+							+e.result-small Скидка
+		+e.step
+			+e.row.flex_justify
+				+e.box
+					+e.H3.title.h3 Выберите необходимые услуги
+					+e.options
+						+e.door-list.flex_justify
+							+e.door-item._service(data-service-name="Замер проёмов; ")
+								+e.door-img
+									img(src="/img/step4_img1.jpg")
+								+e.door-name Замер проёмов
+							+e.door-item._service(data-service-name="Доставка; ")
+								+e.door-img
+									img(src="/img/step4_img2.jpg")
+								+e.door-name Доставка
+							+e.door-item._service(data-service-name="Монтаж дверей; ")
+								+e.door-img
+									img(src="/img/step4_img3.jpg")
+								+e.door-name Монтаж дверей
+						+e.action
+							+e.polity
+							+e.BUTTON.btn.btn.js-next-step.js-array-service Следующий шаг
+								.btn__icon
+									+icon('arrow', '0 0 10 16')
+					+e.complete
+						+e.complete-scale
+							+e.complete-loaded(style="width:80%")
+						+e.complete-text Шаг 4 из 5
+				+e.result
+					+e.H3.result-title.h3
+						| Ответьте на 5 вопросов,
+						br
+						| чтобы получить скидку
+						br
+						| и бесплатную доставку
+					+e.result-round
+						+e.IMG.result-icon(src="/img/discount.png")
+						+e.result-discount
+							+e.result-percent +7%
+							+e.result-small Скидка
+					+e.delivery
+						+e.delivery-desc.desc
+							strong + Бесплатная доставка
+		+e.step
+			+e.row.flex_justify
+				+e.box
+					+e.H3.title.h3 
+						| Введите контакты, чтобы 
+						br
+						| получить 2 варианта дверей 
+						br
+						| по вашим параметрам
+
+					+e.options
+						+e.FORM.form.form(action="#",data-thancks-name="#thanks2")
+							+e.INPUT(type="hidden",name="subj",value="Заявка с квиза")
+							+e.INPUT(type="hidden",name="style")
+							+e.INPUT(type="hidden",name="color")
+							+e.INPUT(type="hidden",name="counter")
+							+e.INPUT(type="hidden",name="service")
+							+e.field-list.form__field-list
+								+e.field.form__field
+									+e.LABEL.label.form__label.p.color_grey Ваше имя 
+									+e.INPUT.input.form__input(placeholder="Евгений",type="text",name="name")
+								+e.field.form__field
+									+e.LABEL.label.form__label.p.color_grey Ваш номер телефона 
+									+e.INPUT.input.form__input(placeholder="+7 (000) 000-00-00",type="tel",name="phone")
+							+e.action
+								+e.polity.form__polity
+									| Оставляя заявку, вы соглашаетесь 
+									br
+									| с обработкой 
+									a(href="#") персональных данных
+								+e.BUTTON.btn.btn(type="submit",name="quiz") Получить предложение
+									.btn__icon
+										+icon('arrow', '0 0 10 16')
+					+e.complete
+						+e.complete-scale
+							+e.complete-loaded(style="width:100%")
+						+e.complete-text Шаг 5 из 5
+				+e.result
+					+e.H3.result-title.h3
+						| Спасибо! 
+						br
+						| Опрос завершен
+					+e.result-round
+						+e.IMG.result-icon(src="/img/discount.png")
+						+e.result-discount
+							+e.result-percent +7%
+							+e.result-small Скидка
+					+e.delivery
+						+e.delivery-desc.desc
+							strong + Бесплатная доставка
